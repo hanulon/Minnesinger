@@ -3,12 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="cec48f1f-dcec-439c-9807-6e55ec7c4680" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Minnesinger.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Minnesinger.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Minnesinger.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/music_bot.py" beforeDir="false" afterPath="$PROJECT_DIR$/music_bot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_minnesingerBot.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_minnesingerBot.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,11 +17,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="test_minnesingerBot.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="music_bot.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/music_bot.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="20" column="41" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
+              <folding>
+                <element signature="e#0#14#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_minnesingerBot.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_minnesingerBot.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
+            <state relative-caret-position="629">
+              <caret line="41" column="35" selection-start-line="41" selection-start-column="35" selection-end-line="41" selection-end-column="35" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -40,6 +50,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/test_minnesingerBot.py" />
+        <option value="$PROJECT_DIR$/music_bot.py" />
       </list>
     </option>
   </component>
@@ -80,7 +91,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for test_minnesingerBot.TestMinnesingerBot.test_get_bot_credentials">
+  <component name="RunManager" selected="Python.music_bot">
+    <configuration name="music_bot" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Minnesinger" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/music_bot.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="Unittests for test_minnesingerBot.TestMinnesingerBot" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Minnesinger" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -94,7 +123,7 @@
       <option name="_new_target" value="&quot;test_minnesingerBot.TestMinnesingerBot&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
-    <configuration name="Unittests for test_minnesingerBot.TestMinnesingerBot.test_get_bot_credentials" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_minnesingerBot.TestMinnesingerBot.test_get_command_with_args_on_empty" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Minnesinger" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -104,17 +133,49 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_minnesingerBot.TestMinnesingerBot.test_get_bot_credentials&quot;" />
+      <option name="_new_target" value="&quot;test_minnesingerBot.TestMinnesingerBot.test_get_command_with_args_on_empty&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+    </configuration>
+    <configuration name="Unittests for test_minnesingerBot.TestMinnesingerBot.test_get_command_with_args_on_normal_command" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Minnesinger" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_minnesingerBot.TestMinnesingerBot.test_get_command_with_args_on_normal_command&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+    </configuration>
+    <configuration name="Unittests for test_minnesingerBot.TestMinnesingerBot.test_get_command_without_args" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Minnesinger" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_minnesingerBot.TestMinnesingerBot.test_get_command_without_args&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
     <list>
       <item itemvalue="Python tests.Unittests for test_minnesingerBot.TestMinnesingerBot" />
-      <item itemvalue="Python tests.Unittests for test_minnesingerBot.TestMinnesingerBot.test_get_bot_credentials" />
+      <item itemvalue="Python tests.Unittests for test_minnesingerBot.TestMinnesingerBot.test_get_command_with_args_on_empty" />
+      <item itemvalue="Python tests.Unittests for test_minnesingerBot.TestMinnesingerBot.test_get_command_with_args_on_normal_command" />
+      <item itemvalue="Python tests.Unittests for test_minnesingerBot.TestMinnesingerBot.test_get_command_without_args" />
+      <item itemvalue="Python.music_bot" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests for test_minnesingerBot.TestMinnesingerBot.test_get_bot_credentials" />
+        <item itemvalue="Python.music_bot" />
         <item itemvalue="Python tests.Unittests for test_minnesingerBot.TestMinnesingerBot" />
+        <item itemvalue="Python tests.Unittests for test_minnesingerBot.TestMinnesingerBot.test_get_command_without_args" />
+        <item itemvalue="Python tests.Unittests for test_minnesingerBot.TestMinnesingerBot.test_get_command_with_args_on_normal_command" />
+        <item itemvalue="Python tests.Unittests for test_minnesingerBot.TestMinnesingerBot.test_get_command_with_args_on_empty" />
       </list>
     </recent_temporary>
   </component>
@@ -132,26 +193,51 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_test_minnesingerBot_TestMinnesingerBot - 2018.07.08 at 02h 16m 12s.xml">
+    <history-entry file="Unittests_for_test_minnesingerBot_TestMinnesingerBot_test_get_command_with_args_on_empty - 2018.07.08 at 22h 50m 57s.xml">
+      <configuration name="Unittests for test_minnesingerBot.TestMinnesingerBot.test_get_command_with_args_on_empty" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_minnesingerBot_TestMinnesingerBot_test_get_command_with_args_on_empty - 2018.07.08 at 22h 57m 57s.xml">
+      <configuration name="Unittests for test_minnesingerBot.TestMinnesingerBot.test_get_command_with_args_on_empty" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_minnesingerBot_TestMinnesingerBot - 2018.07.08 at 22h 58m 05s.xml">
       <configuration name="Unittests for test_minnesingerBot.TestMinnesingerBot" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_minnesingerBot_TestMinnesingerBot_test_get_bot_credentials - 2018.07.08 at 02h 37m 40s.xml">
-      <configuration name="Unittests for test_minnesingerBot.TestMinnesingerBot.test_get_bot_credentials" configurationId="tests" />
+    <history-entry file="Unittests_for_test_minnesingerBot_TestMinnesingerBot - 2018.07.08 at 23h 29m 41s.xml">
+      <configuration name="Unittests for test_minnesingerBot.TestMinnesingerBot" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_minnesingerBot_TestMinnesingerBot_test_get_command_with_args_on_normal_command - 2018.07.08 at 23h 30m 01s.xml">
+      <configuration name="Unittests for test_minnesingerBot.TestMinnesingerBot.test_get_command_with_args_on_normal_command" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_minnesingerBot_TestMinnesingerBot - 2018.07.08 at 23h 33m 06s.xml">
+      <configuration name="Unittests for test_minnesingerBot.TestMinnesingerBot" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_minnesingerBot_TestMinnesingerBot_test_get_command_without_args - 2018.07.08 at 23h 33m 18s.xml">
+      <configuration name="Unittests for test_minnesingerBot.TestMinnesingerBot.test_get_command_without_args" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_minnesingerBot_TestMinnesingerBot_test_get_command_without_args - 2018.07.08 at 23h 34m 03s.xml">
+      <configuration name="Unittests for test_minnesingerBot.TestMinnesingerBot.test_get_command_without_args" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_minnesingerBot_TestMinnesingerBot_test_get_command_without_args - 2018.07.08 at 23h 34m 32s.xml">
+      <configuration name="Unittests for test_minnesingerBot.TestMinnesingerBot.test_get_command_without_args" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_minnesingerBot_TestMinnesingerBot - 2018.07.08 at 23h 34m 40s.xml">
+      <configuration name="Unittests for test_minnesingerBot.TestMinnesingerBot" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24963397" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" sideWeight="0.50073206" side_tool="true" weight="0.3290938" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Python Console" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3290938" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49926794" visible="true" weight="0.3290938" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3990461" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -164,13 +250,35 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://D:/Python36-32/Lib/unittest/case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="604" selection-start-line="604" selection-end-line="604" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test_minnesingerBot.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
+        <state relative-caret-position="629">
+          <caret line="41" column="35" selection-start-line="41" selection-start-column="35" selection-end-line="41" selection-end-column="35" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/music_bot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="20" column="41" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
           </folding>
         </state>
       </provider>
